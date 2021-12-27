@@ -38,7 +38,7 @@ const harvestStore = useHarvest();
                       {{ user.lastTask.task.name }}
                     </div>
                   </div>
-                  <q-spinner
+                  <q-spinner-clock
                     v-if="user?.lastTask?.is_running"
                     class="my-spinner"
                     color="primary"
